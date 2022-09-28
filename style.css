@@ -35,8 +35,8 @@ figure {
     width: 100%;
     margin-bottom: 60px;
     position: relative;
-    background-color: maroon;
-    background-blend-mode: overlay;
+    /* background-color: maroon;
+    background-blend-mode: overlay; */
     background-image: url(./1.jpg);
     background-size: cover;
     background-position: center;
