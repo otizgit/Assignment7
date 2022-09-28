@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    padding: 30px 10px;
+}
+
+.hero {
+    width: 100%;
+    padding: 60px 20px 10px;
+    background-color: maroon;
+    color: white;
+    position: relative;
+}
+
+.title {
+    text-align: center;
+}
+
+h1 {
+    font-size: 65px;
+    margin-bottom: 20px;
+}
+
+.title p {
+    color: rgb(161, 161, 161);
+    margin-bottom: 20px;
+}
+
+figure {
+    width: 100%;
+    margin-bottom: 60px;
+    position: relative;
+    background-color: maroon;
+    background-blend-mode: overlay;
+    background-image: url(/1.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding: 10px;
+}
+
+.img-container {
+    max-width: 1000px;
+    margin-bottom: 20px;
+    margin: 0 auto;
+}
+
+.img-container img {
+    width: 100%;
+}
+
+.content {
+    text-align: center;
+}
+
+main {
+    width: 100%;
+}
+
+.main-title {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+main ul, .life {
+    width: 43%;
+    margin: auto;
+}
+
+main ul li {
+    margin-bottom: 20px;
+}
+
+main ul li span {
+    font-weight: 700;
+}
+
+.life {
+    font-style: italic;
+    width: 43%;
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+.life p:nth-child(1){
+    margin-bottom: 20px;
+}
+
+.redirect {
+    text-align: center;
+    width: 100%;
+    font-weight: 700;
+    font-size: 19px;
+    margin-bottom: 20px;
+}
+
+.redirect span a {
+    color: rgb(74, 74, 190);
+}
+
+.design {
+    text-align: center;
+}
